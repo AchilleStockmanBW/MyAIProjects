@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import zipfile; z = zipfile.ZipFile\\('credential-qa.skill'\\); z.extractall\\('skill_extracted'\\); print\\('Done'\\)\")",
+      "Bash(python -c \"import zipfile; z = zipfile.ZipFile\\('credential-qa.skill'\\); z.extractall\\('skill_extracted'\\); print\\('Done'\\)\")",
+      "Bash(powershell -Command \"Expand-Archive -Path 'credential-qa.skill' -DestinationPath 'skill_extracted' -Force; Write-Host 'Done'\")",
+      "Bash(powershell -Command ':*)",
+      "Read(//c/Temp/**)",
+      "Bash(powershell -Command \"Remove-Item -Recurse -Force 'C:\\\\Users\\\\AchilleStockman\\\\OneDrive - Quanteus Group\\\\Documents\\\\AI_Champions\\\\MyAIProjects_VSCode\\\\MyAIProjects\\\\Credential_Writer\\\\skill_extracted'; Remove-Item -Force 'C:\\\\Temp\\\\template_copy.pptx', 'C:\\\\Temp\\\\slide1.xml', 'C:\\\\Temp\\\\slide2.xml', 'C:\\\\Temp\\\\slide3.xml' -ErrorAction SilentlyContinue; Write-Host 'Cleaned up'\")",
+      "Read(//c/Users/AchilleStockman/**)",
+      "Bash(powershell -Command \"Test-Path 'C:\\\\Users\\\\AchilleStockman\\\\OneDrive - Quanteus Group\\\\Desktop'\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:\\\\Users\\\\AchilleStockman\\\\OneDrive - Quanteus Group\\\\Documents\\\\AI_Champions\\\\MyAIProjects_VSCode\\\\MyAIProjects\\\\Credential_Writer\\\\Generate-Credential.ps1\" -ConfigFile \"C:\\\\Temp\\\\credential-config.json\")",
+      "Bash(powershell -Command \"Test-Path 'C:\\\\Temp\\\\template_copy2.pptx'\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\AchilleStockman\\.claude\\skills",
+      "C:\\Temp"
+    ]
+  }
+}
