@@ -2,5 +2,10 @@
   "name": "credential-writer",
   "version": "1.0.0",
   "description": "Generates BrightWolves credential slides from project information",
-  "author": { "name": "AchilleStockmanBW" }
+  "author": { "name": "AchilleStockmanBW" },
+  "skills": [
+    {
+      "path": "../SKILL.md"
+    }
+  ]
 }
