@@ -1,5 +1,5 @@
 ---
-name: user-story-writing
+name: user_story_writing
 description: >
   Use this skill whenever the user wants to create, write, or generate user stories — whether they provide raw business requirements, functional specs, feature descriptions, or any other input describing what needs to be built. Always activate this skill when the user mentions "user story", "user stories", "histoire utilisateur", "functional requirement", "feature request", or when they paste a description of something that should be developed. This skill is particularly suited for functional analysts who receive business input and need to translate it into well-structured user stories using the Gherkin methodology. Input can be in Dutch, English, or French — output is ALWAYS in French.
 ---
