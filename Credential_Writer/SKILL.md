@@ -1,5 +1,5 @@
 ﻿---
-name: credential-qa
+name: credential_writer
 description: Guide a BrightWolves consultant through completing a new credential slide end-to-end. Starting from any project information already available (uploaded files or a description), identify what is missing, ask targeted questions one at a time in smart priority order, draft the credential text for consultant review, iterate until approved, then generate and deliver a ready-to-use PowerPoint credential slide using the official BrightWolves template.
 ---
 
