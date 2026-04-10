@@ -1,0 +1,6 @@
+{
+  "name": "user-story-writing",
+  "version": "1.0.0",
+  "description": "Writes user stories in Gherkin format from business requirements",
+  "author": { "name": "AchilleStockmanBW" }
+}
