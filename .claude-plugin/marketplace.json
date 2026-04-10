@@ -1,0 +1,22 @@
+{
+  "name": "BrightWolves Skills",
+  "owner": {
+    "name": "AchilleStockmanBW"
+  },
+  "plugins": [
+    {
+      "name": "credential-writer",
+      "description": "Generates BrightWolves credential slides from project information",
+      "version": "1.0.0",
+      "author": { "name": "AchilleStockmanBW" },
+      "source": "./Credential_Writer"
+    },
+    {
+      "name": "user-story-writing",
+      "description": "Writes user stories in Gherkin format from business requirements",
+      "version": "1.0.0",
+      "author": { "name": "AchilleStockmanBW" },
+      "source": "./User_Story_Writing"
+    }
+  ]
+}
